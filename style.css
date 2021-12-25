@@ -1,4 +1,7 @@
-
+.nav-container {
+  padding: 0 15%;
+  background-color: #fff;
+}
 .navbar-brand img {
   width: 136px;
   height: 43px;
@@ -17,6 +20,12 @@
   }
   .btn-cus2{
       display: none;
+  }
+  main .container {
+    background-color: #0097E0;
+  }
+  .nav-container {
+    padding: 0;
   }
 }
 nav button {
@@ -44,4 +53,18 @@ main .main-vid {
     position: absolute;
     bottom: 0;
     z-index: -1;
+}
+main .h1-btn-section .signup-btn {
+  width: 320px;
+  padding: 13px 24px;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-radius: 40px;
+  border: 0;
+  margin-top: 20px;
+}
+main .main-end {
+  width: 100%;
+  background-color: #02387b;
+  padding: 30px 0 5px 0;
 }
