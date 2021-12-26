@@ -35,6 +35,9 @@
   .section1 {
     flex-direction:column-reverse;
   }
+  .section .img-would {
+    padding: 8%;
+  }
 }
 nav button {
   font-size: 14px;
@@ -90,4 +93,17 @@ main .main-end button {
   line-height: 12px;
   border: 1px solid #0070ba;
   border-radius: 20px;
+}
+.section1-h1 h1 {
+  color: #00A8EA;
+}
+.section2 button {
+  padding: 13px 100px;
+  border: 1px solid #0070ba;
+  border-radius: 30px;
+  color: #0070ba;
+  background-color: #fff;
+}
+.section3 {
+  background-color: #f5f7fa;
 }
