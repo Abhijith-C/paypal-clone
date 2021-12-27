@@ -35,6 +35,12 @@
   .row-cus {
     flex-direction:column-reverse;
   }
+  .banner1 .banner-btn button{
+    width: 100%;
+  }
+  .main-section-container .section button {
+    width: 100%;
+  }
 }
 nav button {
   font-size: 14px;
@@ -115,7 +121,7 @@ main .main-end button {
   background-color: #00A8EA;
 }
 .banner1 ul li {
-  width: 60px;height: 60px;
+  width: 3.75em;height: 3.75em;
   background-color: #fff;
   margin-left: 10px;
   border-radius: 20px;
@@ -124,8 +130,43 @@ main .main-end button {
 .banner1 ul li span {
   font-size: 2.57142857rem;
   text-align: center;
-  font-weight: 900;
+  font-weight: 500;
   color: black;
   display: flex;
   justify-content: center;
+}
+.banner-btn button{
+  height: 45px;width: 320px;
+  border: 1px solid #0070ba;
+  border-radius: 1.8em;
+  color: #0070ba;
+  background-color: #fff;
+}
+.banner .logos ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.banner .logos ul li {
+  width: 134px;
+  margin-left: 3%;
+}
+.banner .logos ul li img{
+  width: 100%;
+}
+footer .footer-p {
+  color: #2c2e2f;
+  font-weight: 500;
+}
+footer .footer-cus ul li{
+  color: #2c2e2f;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+footer .footer-content p{
+  font-size: .8125rem;
+    color: #687173;
+    line-height: 1.6;
 }
