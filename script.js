@@ -8,7 +8,7 @@ count_min.forEach((counter) => {
   
       if (count < target) {
         counter.innerText = count + 1;
-        setTimeout(updateCount, 10000);
+        setTimeout(updateCount, 20000);
       } else {
         counter.innerText = target;
       }
